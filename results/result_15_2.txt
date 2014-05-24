@@ -1,0 +1,203 @@
+man:0x000027 oem:0x5048 name:SD8GB hwrev:0x3 fwrev:0x0 date:01/2014 cid:2750485344384742307c7ddc2100e100 csd:400e00325b59000039af7f800a400000
+============== Device: /dev/sdb ===== 
+============== Partition table ===== 
+
+Диск /dev/sdb: 3980 МБ, 3980394496 байт
+123 головок, 62 секторов/треков, 1019 цилиндров, всего 7774208 секторов
+Units = секторы of 1 * 512 = 512 bytes
+Размер сектора (логического/физического): 512 байт / 512 байт
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Идентификатор диска: 0x5a5a5a5a
+
+============== Examining first partition ===== 
+dosfsck 3.0.16 (01 Mar 2013)
+dosfsck 3.0.16, 01 Mar 2013, FAT32, LFN
+============== Linear read speed (dd, 4M block) ============
+==== 1 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.8251 c, 3.9 MB/c
+==== 2 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.8304 c, 3.9 MB/c
+==== 3 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.7968 c, 3.9 MB/c
+==== 4 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.7315 c, 3.9 MB/c
+==== 5 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.7158 c, 3.9 MB/c
+============== Linear read speed (dd, 4M block, skip 10) ============
+==== 1 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.5875 c, 4.0 MB/c
+==== 2 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.6053 c, 4.0 MB/c
+==== 3 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.598 c, 4.0 MB/c
+==== 4 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.6766 c, 3.9 MB/c
+==== 5 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.6516 c, 3.9 MB/c
+============== Linear write speed (dd, 4M block) ============
+==== 1 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 11.9141 c, 3.5 MB/c
+==== 2 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.8442 c, 3.9 MB/c
+==== 3 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.8579 c, 3.9 MB/c
+==== 4 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.8329 c, 3.9 MB/c
+==== 5 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.849 c, 3.9 MB/c
+============== Linear write speed (dd, 4M block, seek 10) ============
+==== 1 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 9.54951 c, 4.4 MB/c
+==== 2 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 9.72489 c, 4.3 MB/c
+==== 3 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 10.065 c, 4.2 MB/c
+==== 4 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 9.74114 c, 4.3 MB/c
+==== 5 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 9.56845 c, 4.4 MB/c
+============== Linear read speed (hdparm) ============
+==== 1 ====
+
+/dev/sdb:
+ Timing buffered disk reads:  12 MB in  3.21 seconds =   3.73 MB/sec
+==== 2 ====
+
+/dev/sdb:
+ Timing buffered disk reads:  12 MB in  3.21 seconds =   3.73 MB/sec
+==== 3 ====
+
+/dev/sdb:
+ Timing buffered disk reads:  12 MB in  3.22 seconds =   3.72 MB/sec
+==== 4 ====
+
+/dev/sdb:
+ Timing buffered disk reads:  12 MB in  3.23 seconds =   3.72 MB/sec
+==== 5 ====
+
+/dev/sdb:
+ Timing buffered disk reads:  12 MB in  3.23 seconds =   3.72 MB/sec
+============== Align test ============
+======= Align test: 1 =======
+align 1073741824	pre 1.28ms	on 1.64ms	post 1.33ms	diff 339µs
+align 536870912	pre 1.36ms	on 1.68ms	post 1.33ms	diff 335µs
+align 268435456	pre 1.34ms	on 1.7ms	post 1.35ms	diff 355µs
+align 134217728	pre 1.36ms	on 1.82ms	post 1.46ms	diff 408µs
+align 67108864	pre 1.38ms	on 1.69ms	post 1.35ms	diff 328µs
+align 33554432	pre 1.37ms	on 1.69ms	post 1.32ms	diff 342µs
+align 16777216	pre 1.33ms	on 1.66ms	post 1.35ms	diff 319µs
+align 8388608	pre 1.32ms	on 1.68ms	post 1.32ms	diff 364µs
+align 4194304	pre 1.3ms	on 1.64ms	post 1.34ms	diff 320µs
+align 2097152	pre 1.31ms	on 1.45ms	post 1.33ms	diff 133µs
+align 1048576	pre 1.28ms	on 1.43ms	post 1.33ms	diff 128µs
+align 524288	pre 1.26ms	on 1.44ms	post 1.33ms	diff 150µs
+align 262144	pre 1.3ms	on 1.39ms	post 1.32ms	diff 79.7µs
+align 131072	pre 1.31ms	on 1.45ms	post 1.33ms	diff 131µs
+align 65536	pre 1.29ms	on 1.45ms	post 1.32ms	diff 144µs
+align 32768	pre 1.32ms	on 1.45ms	post 1.32ms	diff 130µs
+align 16384	pre 1.27ms	on 1.45ms	post 1.33ms	diff 150µs
+align 8192	pre 1.43ms	on 1.41ms	post 1.34ms	diff 24.4µs
+align 4096	pre 1.49ms	on 1.48ms	post 1.33ms	diff 66.4µs
+align 2048	pre 1.52ms	on 1.5ms	post 1.5ms	diff -10480n
+======= Align test: 2 =======
+align 1073741824	pre 1.28ms	on 1.62ms	post 1.34ms	diff 315µs
+align 536870912	pre 1.35ms	on 1.67ms	post 1.34ms	diff 319µs
+align 268435456	pre 1.34ms	on 1.68ms	post 1.35ms	diff 331µs
+align 134217728	pre 1.34ms	on 1.81ms	post 1.47ms	diff 410µs
+align 67108864	pre 1.37ms	on 1.69ms	post 1.34ms	diff 332µs
+align 33554432	pre 1.37ms	on 1.7ms	post 1.35ms	diff 343µs
+align 16777216	pre 1.31ms	on 1.63ms	post 1.36ms	diff 300µs
+align 8388608	pre 1.36ms	on 1.68ms	post 1.34ms	diff 334µs
+align 4194304	pre 1.29ms	on 1.63ms	post 1.35ms	diff 314µs
+align 2097152	pre 1.29ms	on 1.43ms	post 1.32ms	diff 124µs
+align 1048576	pre 1.32ms	on 1.45ms	post 1.32ms	diff 126µs
+align 524288	pre 1.29ms	on 1.45ms	post 1.33ms	diff 138µs
+align 262144	pre 1.29ms	on 1.46ms	post 1.32ms	diff 151µs
+align 131072	pre 1.3ms	on 1.46ms	post 1.31ms	diff 158µs
+align 65536	pre 1.31ms	on 1.46ms	post 1.33ms	diff 139µs
+align 32768	pre 1.3ms	on 1.45ms	post 1.33ms	diff 132µs
+align 16384	pre 1.31ms	on 1.45ms	post 1.33ms	diff 122µs
+align 8192	pre 1.44ms	on 1.42ms	post 1.32ms	diff 40.3µs
+align 4096	pre 1.49ms	on 1.49ms	post 1.33ms	diff 76.9µs
+align 2048	pre 1.52ms	on 1.5ms	post 1.5ms	diff -10743n
+======= Align test: 3 =======
+align 1073741824	pre 1.27ms	on 1.63ms	post 1.34ms	diff 320µs
+align 536870912	pre 1.32ms	on 1.69ms	post 1.32ms	diff 368µs
+align 268435456	pre 1.38ms	on 1.68ms	post 1.36ms	diff 310µs
+align 134217728	pre 1.36ms	on 1.82ms	post 1.48ms	diff 403µs
+align 67108864	pre 1.37ms	on 1.69ms	post 1.35ms	diff 334µs
+align 33554432	pre 1.37ms	on 1.69ms	post 1.35ms	diff 331µs
+align 16777216	pre 1.32ms	on 1.64ms	post 1.36ms	diff 302µs
+align 8388608	pre 1.36ms	on 1.68ms	post 1.34ms	diff 327µs
+align 4194304	pre 1.31ms	on 1.63ms	post 1.36ms	diff 296µs
+align 2097152	pre 1.31ms	on 1.44ms	post 1.33ms	diff 119µs
+align 1048576	pre 1.3ms	on 1.45ms	post 1.33ms	diff 139µs
+align 524288	pre 1.27ms	on 1.43ms	post 1.33ms	diff 127µs
+align 262144	pre 1.31ms	on 1.43ms	post 1.32ms	diff 115µs
+align 131072	pre 1.29ms	on 1.45ms	post 1.33ms	diff 142µs
+align 65536	pre 1.31ms	on 1.46ms	post 1.32ms	diff 148µs
+align 32768	pre 1.31ms	on 1.44ms	post 1.33ms	diff 129µs
+align 16384	pre 1.28ms	on 1.41ms	post 1.32ms	diff 106µs
+align 8192	pre 1.44ms	on 1.43ms	post 1.34ms	diff 35.6µs
+align 4096	pre 1.49ms	on 1.48ms	post 1.35ms	diff 65.5µs
+align 2048	pre 1.5ms	on 1.53ms	post 1.5ms	diff 27.1µs
+============== Find FAT ============
+======= find FAT: 1 =======
+======= find FAT: 2 =======
+======= find FAT: 3 =======
+============== Linear access ============
+======= AU=1, linear access =======
+======= AU=2, linear access =======
+======= AU=3, linear access =======
+======= AU=4, linear access =======
+======= AU=5, linear access =======
+======= AU=6, linear access =======
+======= AU=7, linear access =======
+============== Random access============
+======= AU=1, random access =======
+======= AU=2, random access =======
+======= AU=3, random access =======
+======= AU=4, random access =======
+======= AU=5, random access =======
+======= AU=6, random access =======
+======= AU=7, random access =======

@@ -1,0 +1,11 @@
+Version  1.97       ------Sequential Output------ --Sequential Input- --Random-
+Concurrency   1     -Per Chr- --Block-- -Rewrite- -Per Chr- --Block-- --Seeks--
+Machine        Size K/sec %CP K/sec %CP K/sec %CP K/sec %CP K/sec %CP  /sec %CP
+boger-ThinkPad 512M   568  96  5275   0  5562   0  1757  99 +++++ +++  48.1   0
+Latency             21806us   15431ms   13902ms    5280us      71us      35us
+Version  1.97       ------Sequential Create------ --------Random Create--------
+boger-ThinkPad-Edge -Create-- --Read--- -Delete-- -Create-- --Read--- -Delete--
+files:max:min        /sec %CP  /sec %CP  /sec %CP  /sec %CP  /sec %CP  /sec %CP
+    1:1048576:2/100     5   0 +++++ +++   202   1     5   0 +++++ +++   845   8
+Latency             21879ms     550us     342us   20284ms    4139us    1929us
+1.97,1.97,boger-ThinkPad-Edge-E440,1,1400372848,512M,,568,96,5275,0,5562,0,1757,99,+++++,+++,48.1,0,1,1048576,2,,100,5,0,+++++,+++,202,1,5,0,+++++,+++,845,8,21806us,15431ms,13902ms,5280us,71us,35us,21879ms,550us,342us,20284ms,4139us,1929us

@@ -1,0 +1,6 @@
+Version  1.96       ------Sequential Create------ --------Random Create--------
+wirenboard          -Create-- --Read--- -Delete-- -Create-- --Read--- -Delete--
+files:max:min        /sec %CP  /sec %CP  /sec %CP  /sec %CP  /sec %CP  /sec %CP
+     5:102400:2/100    62  34   125  40   678  87    61  34   118  40   562  75
+Latency              1597ms     208ms     256ms    1606ms     304ms     334ms
+1.96,1.96,wirenboard,1,1400374963,,,,,,,,,,,,,,5,102400,2,,100,62,34,125,40,678,87,61,34,118,40,562,75,,,,,,,1597ms,208ms,256ms,1606ms,304ms,334ms

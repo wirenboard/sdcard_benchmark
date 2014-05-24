@@ -1,0 +1,245 @@
+man:0x000000 oem:0x0000 name:00000 hwrev:0xf fwrev:0xf date:02/2014 cid:0000003030303030ff000016ca00e200 csd:400e00325b5900001d877f800a400000
+============== Device: /dev/mmcblk0 ===== 
+============== Partition table ===== 
+
+Диск /dev/mmcblk0: 3963 МБ, 3963617280 байт
+4 головок, 16 секторов/треков, 120960 цилиндров, всего 7741440 секторов
+Units = секторы of 1 * 512 = 512 bytes
+Размер сектора (логического/физического): 512 байт / 512 байт
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Идентификатор диска: 0x5a5a5a5a
+
+============== Examining first partition ===== 
+dosfsck 3.0.16 (01 Mar 2013)
+dosfsck 3.0.16, 01 Mar 2013, FAT32, LFN
+============== Linear read speed (dd, 4M block) ============
+==== 1 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.40973 c, 17.4 MB/c
+==== 2 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.39227 c, 17.5 MB/c
+==== 3 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.39331 c, 17.5 MB/c
+==== 4 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.39407 c, 17.5 MB/c
+==== 5 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.37695 c, 17.6 MB/c
+============== Linear read speed (dd, 4M block, skip 10) ============
+==== 1 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.50136 c, 16.8 MB/c
+==== 2 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.47777 c, 16.9 MB/c
+==== 3 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.49722 c, 16.8 MB/c
+==== 4 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.4784 c, 16.9 MB/c
+==== 5 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.49262 c, 16.8 MB/c
+============== Linear read speed (dd, 64kb block, skip 1024) ============
+==== 1 ====
+512+0 записей получено
+512+0 записей отправлено
+скопировано 33554432 байта (34 MB), 1.96963 c, 17.0 MB/c
+==== 2 ====
+512+0 записей получено
+512+0 записей отправлено
+скопировано 33554432 байта (34 MB), 1.95791 c, 17.1 MB/c
+==== 3 ====
+512+0 записей получено
+512+0 записей отправлено
+скопировано 33554432 байта (34 MB), 1.97705 c, 17.0 MB/c
+==== 4 ====
+512+0 записей получено
+512+0 записей отправлено
+скопировано 33554432 байта (34 MB), 1.96593 c, 17.1 MB/c
+==== 5 ====
+512+0 записей получено
+512+0 записей отправлено
+скопировано 33554432 байта (34 MB), 1.96065 c, 17.1 MB/c
+============== Linear write speed (dd, 4M block) ============
+==== 1 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 6.77424 c, 6.2 MB/c
+==== 2 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 6.37085 c, 6.6 MB/c
+==== 3 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 6.34092 c, 6.6 MB/c
+==== 4 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 6.33172 c, 6.6 MB/c
+==== 5 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 6.84106 c, 6.1 MB/c
+============== Linear write speed (dd, 4M block, seek 10) ============
+==== 1 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 7.4247 c, 5.6 MB/c
+==== 2 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 7.39713 c, 5.7 MB/c
+==== 3 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 7.38662 c, 5.7 MB/c
+==== 4 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 7.37692 c, 5.7 MB/c
+==== 5 ====
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 11.6524 c, 3.6 MB/c
+============== Linear write speed (dd, 64kb block, seek 1024) ============
+==== 1 ====
+512+0 записей получено
+512+0 записей отправлено
+скопировано 33554432 байта (34 MB), 7.63075 c, 4.4 MB/c
+==== 2 ====
+512+0 записей получено
+512+0 записей отправлено
+скопировано 33554432 байта (34 MB), 6.41201 c, 5.2 MB/c
+==== 3 ====
+512+0 записей получено
+512+0 записей отправлено
+скопировано 33554432 байта (34 MB), 6.39797 c, 5.2 MB/c
+==== 4 ====
+512+0 записей получено
+512+0 записей отправлено
+скопировано 33554432 байта (34 MB), 6.38561 c, 5.3 MB/c
+==== 5 ====
+512+0 записей получено
+512+0 записей отправлено
+скопировано 33554432 байта (34 MB), 7.08873 c, 4.7 MB/c
+============== Linear read speed (hdparm) ============
+==== 1 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads: 144 MB in  3.04 seconds =  47.41 MB/sec
+==== 2 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  52 MB in  3.10 seconds =  16.79 MB/sec
+==== 3 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  52 MB in  3.10 seconds =  16.78 MB/sec
+==== 4 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  52 MB in  3.09 seconds =  16.83 MB/sec
+==== 5 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  52 MB in  3.10 seconds =  16.79 MB/sec
+============== Align test ============
+======= Align test: 1 =======
+align 1073741824	pre 893µs	on 1.11ms	post 753µs	diff 289µs
+align 536870912	pre 866µs	on 1.1ms	post 739µs	diff 296µs
+align 268435456	pre 849µs	on 1.12ms	post 749µs	diff 325µs
+align 134217728	pre 995µs	on 1.21ms	post 753µs	diff 339µs
+align 67108864	pre 970µs	on 1.18ms	post 705µs	diff 339µs
+align 33554432	pre 965µs	on 1.2ms	post 747µs	diff 349µs
+align 16777216	pre 930µs	on 1.14ms	post 732µs	diff 314µs
+align 8388608	pre 954µs	on 1.16ms	post 737µs	diff 310µs
+align 4194304	pre 931µs	on 1.14ms	post 707µs	diff 323µs
+align 2097152	pre 825µs	on 860µs	post 754µs	diff 70.1µs
+align 1048576	pre 811µs	on 827µs	post 727µs	diff 58.2µs
+align 524288	pre 804µs	on 822µs	post 704µs	diff 68.2µs
+align 262144	pre 812µs	on 839µs	post 718µs	diff 74.6µs
+align 131072	pre 792µs	on 820µs	post 720µs	diff 63.6µs
+align 65536	pre 791µs	on 818µs	post 702µs	diff 71.6µs
+align 32768	pre 803µs	on 810µs	post 719µs	diff 49µs
+align 16384	pre 789µs	on 823µs	post 723µs	diff 66.9µs
+align 8192	pre 782µs	on 776µs	post 753µs	diff 8.56µs
+align 4096	pre 702µs	on 711µs	post 711µs	diff 3.74µs
+align 2048	pre 728µs	on 754µs	post 720µs	diff 30µs
+======= Align test: 2 =======
+align 1073741824	pre 920µs	on 1.11ms	post 800µs	diff 251µs
+align 536870912	pre 854µs	on 1.08ms	post 713µs	diff 301µs
+align 268435456	pre 864µs	on 1.09ms	post 738µs	diff 289µs
+align 134217728	pre 990µs	on 1.2ms	post 741µs	diff 330µs
+align 67108864	pre 962µs	on 1.18ms	post 720µs	diff 335µs
+align 33554432	pre 1.01ms	on 1.21ms	post 756µs	diff 328µs
+align 16777216	pre 947µs	on 1.16ms	post 724µs	diff 327µs
+align 8388608	pre 937µs	on 1.18ms	post 735µs	diff 342µs
+align 4194304	pre 933µs	on 1.13ms	post 706µs	diff 310µs
+align 2097152	pre 813µs	on 817µs	post 706µs	diff 58µs
+align 1048576	pre 800µs	on 848µs	post 711µs	diff 92µs
+align 524288	pre 800µs	on 834µs	post 692µs	diff 88.6µs
+align 262144	pre 811µs	on 849µs	post 723µs	diff 82.8µs
+align 131072	pre 796µs	on 812µs	post 705µs	diff 61.6µs
+align 65536	pre 797µs	on 825µs	post 702µs	diff 75µs
+align 32768	pre 785µs	on 822µs	post 704µs	diff 77µs
+align 16384	pre 797µs	on 827µs	post 701µs	diff 78.3µs
+align 8192	pre 777µs	on 761µs	post 770µs	diff -11865n
+align 4096	pre 711µs	on 705µs	post 709µs	diff -4824ns
+align 2048	pre 734µs	on 736µs	post 756µs	diff -8250ns
+======= Align test: 3 =======
+align 1073741824	pre 903µs	on 1.11ms	post 752µs	diff 285µs
+align 536870912	pre 882µs	on 1.08ms	post 736µs	diff 267µs
+align 268435456	pre 849µs	on 1.13ms	post 765µs	diff 321µs
+align 134217728	pre 1.01ms	on 1.2ms	post 740µs	diff 327µs
+align 67108864	pre 961µs	on 1.2ms	post 723µs	diff 354µs
+align 33554432	pre 939µs	on 1.21ms	post 763µs	diff 363µs
+align 16777216	pre 923µs	on 1.16ms	post 722µs	diff 339µs
+align 8388608	pre 925µs	on 1.14ms	post 716µs	diff 321µs
+align 4194304	pre 937µs	on 1.14ms	post 742µs	diff 304µs
+align 2097152	pre 824µs	on 802µs	post 711µs	diff 34.9µs
+align 1048576	pre 802µs	on 851µs	post 734µs	diff 82.4µs
+align 524288	pre 792µs	on 822µs	post 695µs	diff 78.6µs
+align 262144	pre 797µs	on 837µs	post 726µs	diff 75.5µs
+align 131072	pre 790µs	on 827µs	post 715µs	diff 74.8µs
+align 65536	pre 800µs	on 815µs	post 703µs	diff 63.6µs
+align 32768	pre 802µs	on 834µs	post 723µs	diff 71.7µs
+align 16384	pre 825µs	on 850µs	post 736µs	diff 69.9µs
+align 8192	pre 742µs	on 739µs	post 765µs	diff -14626n
+align 4096	pre 721µs	on 738µs	post 722µs	diff 16.8µs
+align 2048	pre 708µs	on 705µs	post 707µs	diff -2701ns
+============== Find FAT ============
+======= find FAT: 1 =======
+======= find FAT: 2 =======
+======= find FAT: 3 =======
+============== Linear access ============
+======= AU=1, linear access =======
+======= AU=2, linear access =======
+======= AU=3, linear access =======
+======= AU=4, linear access =======
+======= AU=5, linear access =======
+======= AU=6, linear access =======
+======= AU=7, linear access =======
+============== Random access============
+======= AU=1, random access =======
+======= AU=2, random access =======
+======= AU=3, random access =======
+======= AU=4, random access =======
+======= AU=5, random access =======
+======= AU=6, random access =======
+======= AU=7, random access =======

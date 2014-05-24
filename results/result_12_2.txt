@@ -1,0 +1,34 @@
+man:0x000003 oem:0x5344 name:SU04G hwrev:0x8 fwrev:0x0 date:10/2013 cid:03534453553034478021aeb8a900da00 csd:400e00325b5900001d8a7f800a404000
+============== Device: /dev/mmcblk0 ===== 
+============== Linear read speed (dd, 4M block) ============
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 2.30561 c, 18.2 MB/c
+============== Linear write speed (dd, 4M block) ============
+10+0 записей получено
+10+0 записей отправлено
+скопировано 41943040 байт (42 MB), 8.08749 c, 5.2 MB/c
+============== Align test ============
+======= Align test: 1 =======
+======= Align test: 2 =======
+======= Align test: 3 =======
+============== Find FAT ============
+======= find FAT: 1 =======
+======= find FAT: 2 =======
+======= find FAT: 3 =======
+============== Linear access ============
+======= AU=1, linear access =======
+======= AU=2, linear access =======
+======= AU=3, linear access =======
+======= AU=4, linear access =======
+======= AU=5, linear access =======
+======= AU=6, linear access =======
+======= AU=7, linear access =======
+============== Random access============
+======= AU=1, random access =======
+======= AU=2, random access =======
+======= AU=3, random access =======
+======= AU=4, random access =======
+======= AU=5, random access =======
+======= AU=6, random access =======
+======= AU=7, random access =======

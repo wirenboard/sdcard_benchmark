@@ -1,0 +1,230 @@
+man:0x000003 oem:0x5344 name:SU04G hwrev:0x8 fwrev:0x0 date:11/2013 cid:03534453553034478022ed3d8100db08 csd:400e00325b5900001d8a7f800a404008
+============== Device: /dev/mmcblk0 ===== 
+============== Partition table ===== 
+
+Disk /dev/mmcblk0: 3965 MB, 3965190144 bytes
+4 heads, 16 sectors/track, 121008 cylinders, total 7744512 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x5a5a5a5a
+
+============== Examining first partition ===== 
+fsck.fat 3.0.26 (2014-03-07)
+fsck.fat 3.0.26 (2014-03-07)
+============== Linear read speed (dd, 4M block) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.75172 s, 11.2 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.74096 s, 11.2 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.73995 s, 11.2 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.74289 s, 11.2 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.73786 s, 11.2 MB/s
+============== Linear read speed (dd, 4M block, skip 10) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.65154 s, 11.5 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.64638 s, 11.5 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.64512 s, 11.5 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.64654 s, 11.5 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.64238 s, 11.5 MB/s
+============== Linear read speed (dd, 64kb block, skip 1024) ============
+==== 1 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 2.93194 s, 11.4 MB/s
+==== 2 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 2.93123 s, 11.4 MB/s
+==== 3 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 2.93081 s, 11.4 MB/s
+==== 4 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 2.92918 s, 11.5 MB/s
+==== 5 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 2.93225 s, 11.4 MB/s
+============== Linear write speed (dd, 4M block) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 9.06783 s, 4.6 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 8.71746 s, 4.8 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 8.70531 s, 4.8 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 8.66436 s, 4.8 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 8.65753 s, 4.8 MB/s
+============== Linear write speed (dd, 4M block, seek 10) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 9.15802 s, 4.6 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 9.08534 s, 4.6 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 9.06918 s, 4.6 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 9.0509 s, 4.6 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 9.07006 s, 4.6 MB/s
+============== Linear write speed (dd, 64kb block, seek 1024) ============
+==== 1 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 7.21583 s, 4.7 MB/s
+==== 2 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 7.21862 s, 4.6 MB/s
+==== 3 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 7.1999 s, 4.7 MB/s
+==== 4 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 7.1976 s, 4.7 MB/s
+==== 5 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 7.18346 s, 4.7 MB/s
+============== Linear read speed (hdparm) ============
+==== 1 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  34 MB in  3.14 seconds =  10.83 MB/sec
+==== 2 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  34 MB in  3.15 seconds =  10.81 MB/sec
+==== 3 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  34 MB in  3.14 seconds =  10.82 MB/sec
+==== 4 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  34 MB in  3.14 seconds =  10.83 MB/sec
+==== 5 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  34 MB in  3.14 seconds =  10.81 MB/sec
+============== Align test ============
+======= Align test: 1 =======
+align 1073741824	pre 727µs	on 790µs	post 635µs	diff 109µs
+align 536870912	pre 751µs	on 843µs	post 636µs	diff 149µs
+align 268435456	pre 796µs	on 890µs	post 702µs	diff 141µs
+align 134217728	pre 811µs	on 901µs	post 697µs	diff 148µs
+align 67108864	pre 787µs	on 892µs	post 692µs	diff 153µs
+align 33554432	pre 780µs	on 890µs	post 696µs	diff 152µs
+align 16777216	pre 783µs	on 887µs	post 693µs	diff 149µs
+align 8388608	pre 744µs	on 876µs	post 691µs	diff 158µs
+align 4194304	pre 690µs	on 778µs	post 633µs	diff 116µs
+align 2097152	pre 707µs	on 705µs	post 692µs	diff 4.97µs
+align 1048576	pre 705µs	on 708µs	post 693µs	diff 9.26µs
+align 524288	pre 711µs	on 711µs	post 694µs	diff 8.03µs
+align 262144	pre 709µs	on 710µs	post 697µs	diff 6.67µs
+align 131072	pre 708µs	on 712µs	post 694µs	diff 10.6µs
+align 65536	pre 707µs	on 711µs	post 697µs	diff 9.36µs
+align 32768	pre 709µs	on 708µs	post 697µs	diff 5.19µs
+align 16384	pre 704µs	on 719µs	post 700µs	diff 17.7µs
+align 8192	pre 692µs	on 695µs	post 703µs	diff -2108ns
+align 4096	pre 690µs	on 697µs	post 694µs	diff 5µs
+align 2048	pre 692µs	on 697µs	post 691µs	diff 5.49µs
+======= Align test: 2 =======
+align 1073741824	pre 723µs	on 790µs	post 635µs	diff 111µs
+align 536870912	pre 754µs	on 843µs	post 637µs	diff 148µs
+align 268435456	pre 797µs	on 892µs	post 706µs	diff 141µs
+align 134217728	pre 812µs	on 905µs	post 698µs	diff 150µs
+align 67108864	pre 798µs	on 893µs	post 696µs	diff 146µs
+align 33554432	pre 792µs	on 892µs	post 696µs	diff 148µs
+align 16777216	pre 796µs	on 889µs	post 693µs	diff 145µs
+align 8388608	pre 748µs	on 880µs	post 694µs	diff 159µs
+align 4194304	pre 697µs	on 778µs	post 633µs	diff 113µs
+align 2097152	pre 709µs	on 715µs	post 694µs	diff 13.7µs
+align 1048576	pre 711µs	on 716µs	post 699µs	diff 10.8µs
+align 524288	pre 711µs	on 714µs	post 695µs	diff 10.7µs
+align 262144	pre 708µs	on 712µs	post 693µs	diff 11.1µs
+align 131072	pre 709µs	on 711µs	post 696µs	diff 7.85µs
+align 65536	pre 711µs	on 714µs	post 700µs	diff 8.13µs
+align 32768	pre 709µs	on 713µs	post 692µs	diff 12.6µs
+align 16384	pre 714µs	on 714µs	post 698µs	diff 7.51µs
+align 8192	pre 693µs	on 695µs	post 704µs	diff -3470ns
+align 4096	pre 693µs	on 695µs	post 695µs	diff 1.02µs
+align 2048	pre 692µs	on 697µs	post 697µs	diff 2.87µs
+======= Align test: 3 =======
+align 1073741824	pre 723µs	on 788µs	post 633µs	diff 111µs
+align 536870912	pre 763µs	on 841µs	post 634µs	diff 143µs
+align 268435456	pre 796µs	on 891µs	post 706µs	diff 139µs
+align 134217728	pre 812µs	on 907µs	post 698µs	diff 152µs
+align 67108864	pre 796µs	on 893µs	post 696µs	diff 147µs
+align 33554432	pre 795µs	on 892µs	post 696µs	diff 147µs
+align 16777216	pre 791µs	on 890µs	post 693µs	diff 148µs
+align 8388608	pre 750µs	on 874µs	post 694µs	diff 152µs
+align 4194304	pre 700µs	on 776µs	post 635µs	diff 109µs
+align 2097152	pre 705µs	on 709µs	post 693µs	diff 10.3µs
+align 1048576	pre 707µs	on 710µs	post 696µs	diff 8.52µs
+align 524288	pre 706µs	on 711µs	post 695µs	diff 10.2µs
+align 262144	pre 709µs	on 711µs	post 689µs	diff 12.2µs
+align 131072	pre 708µs	on 710µs	post 696µs	diff 7.96µs
+align 65536	pre 705µs	on 713µs	post 697µs	diff 11.8µs
+align 32768	pre 707µs	on 712µs	post 696µs	diff 10.8µs
+align 16384	pre 706µs	on 706µs	post 699µs	diff 4.13µs
+align 8192	pre 691µs	on 694µs	post 701µs	diff -1960ns
+align 4096	pre 691µs	on 698µs	post 694µs	diff 5.31µs
+align 2048	pre 691µs	on 691µs	post 695µs	diff -2156ns
+============== Find FAT ============
+======= find FAT: 1 =======
+======= find FAT: 2 =======
+======= find FAT: 3 =======
+============== Linear access ============

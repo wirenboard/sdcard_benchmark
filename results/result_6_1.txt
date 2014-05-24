@@ -1,0 +1,57 @@
+---------------------------
+============== Device: /dev/sdf ===== 
+============== Partition table ===== 
+
+Диск /dev/sdf: 3980 МБ, 3980394496 байт
+9 головок, 8 секторов/треков, 107975 цилиндров, всего 7774208 секторов
+Units = секторы of 1 * 512 = 512 bytes
+Размер сектора (логического/физического): 512 байт / 512 байт
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Идентификатор диска: 0x00000000
+
+Устр-во Загр     Начало       Конец       Блоки   Id  Система
+/dev/sdf1            8192     7774207     3883008    b  W95 FAT32
+============== Examining first partition ===== 
+dosfsck 3.0.16 (01 Mar 2013)
+dosfsck 3.0.16, 01 Mar 2013, FAT32, LFN
+Checking we can access the last sector of the filesystem
+0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+ Automaticaly removing dirty bit.
+Boot sector contents:
+System ID "        "
+Media byte 0xf8 (hard disk)
+       512 bytes per logical sector
+     32768 bytes per cluster
+      6296 reserved sectors
+First FAT starts at byte 3223552 (sector 6296)
+         2 FATs, 32 bit entries
+    485376 bytes per FAT (= 948 sectors)
+Root directory start at cluster 2 (arbitrary size)
+Data area starts at byte 4194304 (sector 8192)
+    121216 data clusters (3972005888 bytes)
+63 sectors/track, 128 heads
+      8192 hidden sectors
+   7766016 sectors total
+Checking for unused clusters.
+Checking free cluster summary.
+Free cluster summary uninitialized (should be 121215)
+Leaving file system unchanged.
+/dev/sdf1: 0 files, 1/121216 clusters
+============== Linear read speed (dd, 4M block) ============
+==== 1 ====
+3+0 записей получено
+2+0 записей отправлено
+скопировано 8388608 байт (8.4 MB), 0.78967 c, 10.6 MB/c
+==== 2 ====
+5+0 записей получено
+4+0 записей отправлено
+скопировано 16777216 байт (17 MB), 0.539297 c, 31.1 MB/c
+==== 3 ====
+6+0 записей получено
+5+0 записей отправлено
+скопировано 20971520 байт (21 MB), 0.271997 c, 77.1 MB/c
+==== 4 ====
+8+0 записей получено
+7+0 записей отправлено
+скопировано 29360128 байт (29 MB), 0.542033 c, 54.2 MB/c
+==== 5 ====

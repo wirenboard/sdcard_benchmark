@@ -1,0 +1,6 @@
+Version  1.97       ------Sequential Create------ --------Random Create--------
+boger-ThinkPad-Edge -Create-- --Read--- -Delete-- -Create-- --Read--- -Delete--
+files:max:min        /sec %CP  /sec %CP  /sec %CP  /sec %CP  /sec %CP  /sec %CP
+     5:102400:2/100    37   0 +++++ +++  8037  14    65   0 +++++ +++  5321  11
+Latency             17600ms     146us      91us   11545ms      65us      88us
+1.97,1.97,boger-ThinkPad-Edge-E440,1,1400362376,,,,,,,,,,,,,,,5,102400,2,,100,37,0,+++++,+++,8037,14,65,0,+++++,+++,5321,11,,,,,,,17600ms,146us,91us,11545ms,65us,88us

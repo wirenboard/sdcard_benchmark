@@ -1,0 +1,192 @@
+man:0x000003 oem:0x5344 name:SU04G hwrev:0x8 fwrev:0x0 date:11/2013 cid:03534453553034478022ed3d8100db00 csd:400e00325b5900001d8a7f800a404000
+============== Align test ============
+align 1073741824	pre 750µs	on 847µs	post 692µs	diff 126µs
+align 536870912	pre 778µs	on 910µs	post 701µs	diff 171µs
+align 268435456	pre 764µs	on 885µs	post 680µs	diff 164µs
+align 134217728	pre 773µs	on 918µs	post 708µs	diff 177µs
+align 67108864	pre 762µs	on 891µs	post 670µs	diff 175µs
+align 33554432	pre 768µs	on 893µs	post 690µs	diff 164µs
+align 16777216	pre 726µs	on 876µs	post 649µs	diff 188µs
+align 8388608	pre 722µs	on 845µs	post 660µs	diff 154µs
+align 4194304	pre 655µs	on 731µs	post 658µs	diff 74.2µs
+align 2097152	pre 655µs	on 663µs	post 649µs	diff 11.1µs
+align 1048576	pre 688µs	on 684µs	post 687µs	diff -3602ns
+align 524288	pre 705µs	on 716µs	post 684µs	diff 21.6µs
+align 262144	pre 692µs	on 690µs	post 688µs	diff 57ns
+align 131072	pre 701µs	on 699µs	post 687µs	diff 5.5µs
+align 65536	pre 679µs	on 669µs	post 672µs	diff -6921ns
+align 32768	pre 688µs	on 689µs	post 672µs	diff 8.07µs
+align 16384	pre 677µs	on 706µs	post 694µs	diff 21µs
+align 8192	pre 684µs	on 702µs	post 694µs	diff 12.6µs
+align 4096	pre 646µs	on 641µs	post 637µs	diff -924ns
+align 2048	pre 666µs	on 669µs	post 682µs	diff -4834ns
+============== Linear access ============
+AU=1, linear access
+4MiB    10.3M/s 
+2MiB    10.2M/s 
+1MiB    10.3M/s 
+512KiB  10.3M/s 
+256KiB  10.2M/s 
+128KiB  10.2M/s 
+64KiB   10.2M/s 
+32KiB   8.89M/s 
+16KiB   7.45M/s 
+8KiB    4.84M/s 
+4KiB    2.1M/s  
+AU=2, linear access
+4MiB    10.4M/s 
+2MiB    10.3M/s 
+1MiB    10.4M/s 
+512KiB  10.3M/s 
+256KiB  10.2M/s 
+128KiB  10.1M/s 
+64KiB   9.9M/s  
+32KiB   8.63M/s 
+16KiB   6.88M/s 
+8KiB    4.42M/s 
+4KiB    1.83M/s 
+AU=3, linear access
+4MiB    10.3M/s 
+2MiB    10.3M/s 
+1MiB    10.3M/s 
+512KiB  10.2M/s 
+256KiB  10.2M/s 
+128KiB  10.1M/s 
+64KiB   9.78M/s 
+32KiB   8.4M/s  
+16KiB   6.63M/s 
+8KiB    4.35M/s 
+4KiB    1.8M/s  
+AU=4, linear access
+4MiB    6.14M/s 
+2MiB    5.31M/s 
+1MiB    10.3M/s 
+512KiB  10.3M/s 
+256KiB  10.1M/s 
+128KiB  10M/s   
+64KiB   9.73M/s 
+32KiB   8.5M/s  
+16KiB   6.6M/s  
+8KiB    4.28M/s 
+4KiB    1.81M/s 
+AU=5, linear access
+4MiB    6.69M/s 
+2MiB    2.72M/s 
+1MiB    4.27M/s 
+512KiB  3.44M/s 
+256KiB  3.35M/s 
+128KiB  3.38M/s 
+64KiB   4.48M/s 
+32KiB   5.01M/s 
+16KiB   4.59M/s 
+8KiB    3.32M/s 
+4KiB    1.6M/s  
+AU=6, linear access
+4MiB    6.15M/s 
+2MiB    3.12M/s 
+1MiB    3.22M/s 
+512KiB  2.28M/s 
+256KiB  2.19M/s 
+128KiB  2.63M/s 
+64KiB   3.23M/s 
+32KiB   4.66M/s 
+16KiB   4.24M/s 
+8KiB    3.03M/s 
+4KiB    1.53M/s 
+AU=7, linear access
+4MiB    5.81M/s 
+2MiB    2.57M/s 
+1MiB    1.92M/s 
+512KiB  1.88M/s 
+256KiB  1.84M/s 
+128KiB  2.27M/s 
+64KiB   4.21M/s 
+32KiB   3.92M/s 
+16KiB   3.63M/s 
+8KiB    2.74M/s 
+4KiB    1.44M/s 
+============== Random access============
+AU=1, random access
+4MiB    3.76M/s 
+2MiB    3.74M/s 
+1MiB    10.1M/s 
+512KiB  8.31M/s 
+256KiB  4.31M/s 
+128KiB  1.79M/s 
+64KiB   1.01M/s 
+32KiB   485K/s  
+16KiB   232K/s  
+8KiB    1.18M/s 
+4KiB    1.12M/s 
+AU=2, random access
+4MiB    6M/s    
+2MiB    10.3M/s 
+1MiB    10.3M/s 
+512KiB  8.28M/s 
+256KiB  4.29M/s 
+128KiB  1.96M/s 
+64KiB   1.04M/s 
+32KiB   485K/s  
+16KiB   232K/s  
+8KiB    1.07M/s 
+4KiB    997K/s  
+AU=3, random access
+4MiB    6.81M/s 
+2MiB    6.16M/s 
+1MiB    10.2M/s 
+512KiB  8.26M/s 
+256KiB  4.29M/s 
+128KiB  1.95M/s 
+64KiB   1.04M/s 
+32KiB   486K/s  
+16KiB   233K/s  
+8KiB    982K/s  
+4KiB    1.01M/s 
+AU=4, random access
+4MiB    6.84M/s 
+2MiB    10.2M/s 
+1MiB    10.2M/s 
+512KiB  8.25M/s 
+256KiB  4.29M/s 
+128KiB  1.96M/s 
+64KiB   1.04M/s 
+32KiB   488K/s  
+16KiB   234K/s  
+8KiB    932K/s  
+4KiB    990K/s  
+AU=5, random access
+4MiB    6.1M/s  
+2MiB    5.93M/s 
+1MiB    3.65M/s 
+512KiB  2.25M/s 
+256KiB  1.63M/s 
+128KiB  830K/s  
+64KiB   460K/s  
+32KiB   246K/s  
+16KiB   124K/s  
+8KiB    692K/s  
+4KiB    825K/s  
+AU=6, random access
+4MiB    6.87M/s 
+2MiB    4.27M/s 
+1MiB    2.49M/s 
+512KiB  1.55M/s 
+256KiB  995K/s  
+128KiB  560K/s  
+64KiB   343K/s  
+32KiB   179K/s  
+16KiB   100K/s  
+8KiB    558K/s  
+4KiB    786K/s  
+AU=7, random access
+4MiB    6.43M/s 
+2MiB    3.62M/s 
+1MiB    1.89M/s 
+512KiB  1.37M/s 
+256KiB  860K/s  
+128KiB  464K/s  
+64KiB   299K/s  
+32KiB   159K/s  
+16KiB   85K/s   
+8KiB    516K/s  
+4KiB    755K/s  
