@@ -1,0 +1,416 @@
+man:0x000012 oem:0x3456 name:SD hwrev:0x0 fwrev:0x0 date:03/2014 cid:12345653440000000000000af200e308 csd:400e00325b5900001dc77f800a400008
+============== Device: /dev/mmcblk0 ===== 
+============== Partition table ===== 
+
+Disk /dev/mmcblk0: 3997 MB, 3997171712 bytes
+4 heads, 16 sectors/track, 121984 cylinders, total 7806976 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x5a5a5a5a
+
+============== Examining first partition ===== 
+fsck.fat 3.0.26 (2014-03-07)
+fsck.fat 3.0.26 (2014-03-07)
+============== Linear read speed (dd, 4M block) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.09158 s, 20.1 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.08913 s, 20.1 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.08719 s, 20.1 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.0915 s, 20.1 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.09308 s, 20.0 MB/s
+============== Linear read speed (dd, 4M block, skip 10) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.11783 s, 19.8 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.12054 s, 19.8 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.11419 s, 19.8 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.11626 s, 19.8 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.11502 s, 19.8 MB/s
+============== Linear read speed (dd, 64kb block, skip 1024) ============
+==== 1 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 1.71521 s, 19.6 MB/s
+==== 2 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 1.72178 s, 19.5 MB/s
+==== 3 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 1.71884 s, 19.5 MB/s
+==== 4 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 1.71547 s, 19.6 MB/s
+==== 5 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 1.71569 s, 19.6 MB/s
+============== Linear write speed (dd, 4M block) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 4.57386 s, 9.2 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 4.57199 s, 9.2 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 4.57752 s, 9.2 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 5.351 s, 7.8 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 4.56213 s, 9.2 MB/s
+============== Linear write speed (dd, 4M block, seek 10) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 4.57271 s, 9.2 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 4.56163 s, 9.2 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 4.56563 s, 9.2 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 4.60934 s, 9.1 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 5.29618 s, 7.9 MB/s
+============== Linear write speed (dd, 64kb block, seek 1024) ============
+==== 1 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 3.80904 s, 8.8 MB/s
+==== 2 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 3.79596 s, 8.8 MB/s
+==== 3 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 3.82036 s, 8.8 MB/s
+==== 4 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 3.7943 s, 8.8 MB/s
+==== 5 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 4.57208 s, 7.3 MB/s
+============== Linear read speed (hdparm) ============
+==== 1 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  58 MB in  3.10 seconds =  18.68 MB/sec
+==== 2 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  58 MB in  3.03 seconds =  19.15 MB/sec
+==== 3 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  58 MB in  3.03 seconds =  19.13 MB/sec
+==== 4 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  58 MB in  3.03 seconds =  19.12 MB/sec
+==== 5 ====
+
+/dev/mmcblk0:
+ Timing buffered disk reads:  58 MB in  3.04 seconds =  19.06 MB/sec
+============== Align test ============
+======= Align test: 1 =======
+align 1073741824	pre 1.37ms	on 1.51ms	post 1.06ms	diff 291µs
+align 536870912	pre 1.32ms	on 1.46ms	post 1.03ms	diff 289µs
+align 268435456	pre 1.24ms	on 1.41ms	post 962µs	diff 308µs
+align 134217728	pre 1.32ms	on 1.47ms	post 1.02ms	diff 299µs
+align 67108864	pre 1.36ms	on 1.51ms	post 966µs	diff 347µs
+align 33554432	pre 1.36ms	on 1.55ms	post 997µs	diff 370µs
+align 16777216	pre 1.34ms	on 1.52ms	post 962µs	diff 372µs
+align 8388608	pre 1.36ms	on 1.55ms	post 993µs	diff 376µs
+align 4194304	pre 1.36ms	on 1.55ms	post 1ms	diff 370µs
+align 2097152	pre 951µs	on 974µs	post 869µs	diff 63.9µs
+align 1048576	pre 1.01ms	on 1.04ms	post 929µs	diff 74.6µs
+align 524288	pre 1.04ms	on 1.07ms	post 969µs	diff 67µs
+align 262144	pre 1.06ms	on 1.08ms	post 974µs	diff 66.6µs
+align 131072	pre 1.08ms	on 1.08ms	post 987µs	diff 50.7µs
+align 65536	pre 1.09ms	on 1.11ms	post 998µs	diff 70.5µs
+align 32768	pre 1.08ms	on 1.1ms	post 1ms	diff 58.9µs
+align 16384	pre 1.08ms	on 1.11ms	post 994µs	diff 67.7µs
+align 8192	pre 1.03ms	on 1.05ms	post 1.04ms	diff 14.9µs
+align 4096	pre 990µs	on 1.02ms	post 1.02ms	diff 19.3µs
+align 2048	pre 1ms	on 1.01ms	post 1.01ms	diff 968ns
+======= Align test: 2 =======
+align 1073741824	pre 1.32ms	on 1.48ms	post 1.04ms	diff 295µs
+align 536870912	pre 1.29ms	on 1.45ms	post 1.01ms	diff 300µs
+align 268435456	pre 1.23ms	on 1.4ms	post 964µs	diff 306µs
+align 134217728	pre 1.33ms	on 1.48ms	post 1.03ms	diff 299µs
+align 67108864	pre 1.34ms	on 1.5ms	post 965µs	diff 355µs
+align 33554432	pre 1.35ms	on 1.53ms	post 992µs	diff 358µs
+align 16777216	pre 1.33ms	on 1.52ms	post 965µs	diff 372µs
+align 8388608	pre 1.32ms	on 1.53ms	post 991µs	diff 377µs
+align 4194304	pre 1.35ms	on 1.52ms	post 984µs	diff 350µs
+align 2097152	pre 951µs	on 977µs	post 867µs	diff 67.7µs
+align 1048576	pre 998µs	on 1.03ms	post 922µs	diff 65.7µs
+align 524288	pre 1.04ms	on 1.07ms	post 957µs	diff 74.5µs
+align 262144	pre 1.07ms	on 1.06ms	post 951µs	diff 53µs
+align 131072	pre 1.07ms	on 1.1ms	post 988µs	diff 67.2µs
+align 65536	pre 1.07ms	on 1.1ms	post 993µs	diff 68.4µs
+align 32768	pre 1.08ms	on 1.1ms	post 990µs	diff 67.9µs
+align 16384	pre 1.08ms	on 1.1ms	post 994µs	diff 66.7µs
+align 8192	pre 1.02ms	on 1.04ms	post 1.04ms	diff 4.17µs
+align 4096	pre 1.01ms	on 1.01ms	post 1.02ms	diff -617ns
+align 2048	pre 992µs	on 1ms	post 990µs	diff 11.3µs
+======= Align test: 3 =======
+align 1073741824	pre 1.34ms	on 1.51ms	post 1.06ms	diff 315µs
+align 536870912	pre 1.31ms	on 1.46ms	post 1.01ms	diff 296µs
+align 268435456	pre 1.21ms	on 1.42ms	post 970µs	diff 332µs
+align 134217728	pre 1.31ms	on 1.45ms	post 1.03ms	diff 284µs
+align 67108864	pre 1.34ms	on 1.51ms	post 965µs	diff 355µs
+align 33554432	pre 1.37ms	on 1.56ms	post 1ms	diff 366µs
+align 16777216	pre 1.33ms	on 1.51ms	post 959µs	diff 370µs
+align 8388608	pre 1.34ms	on 1.55ms	post 999µs	diff 384µs
+align 4194304	pre 1.37ms	on 1.55ms	post 993µs	diff 369µs
+align 2097152	pre 960µs	on 977µs	post 855µs	diff 69.5µs
+align 1048576	pre 1.01ms	on 1.05ms	post 929µs	diff 78.5µs
+align 524288	pre 1.05ms	on 1.07ms	post 970µs	diff 65.7µs
+align 262144	pre 1.07ms	on 1.09ms	post 985µs	diff 62.7µs
+align 131072	pre 1.07ms	on 1.08ms	post 983µs	diff 50.4µs
+align 65536	pre 1.06ms	on 1.1ms	post 985µs	diff 82.3µs
+align 32768	pre 1.08ms	on 1.1ms	post 987µs	diff 64.2µs
+align 16384	pre 1.09ms	on 1.11ms	post 996µs	diff 61.8µs
+align 8192	pre 1.04ms	on 1.05ms	post 1.05ms	diff 6.12µs
+align 4096	pre 1.01ms	on 1.02ms	post 1.02ms	diff 3.98µs
+align 2048	pre 996µs	on 1.02ms	post 1.01ms	diff 14.2µs
+============== Find FAT ============
+======= find FAT: 1 =======
+4MiB    10.9M/s  10.9M/s  11M/s    11.3M/s  4.31M/s  8.1M/s   11.1M/s  11M/s    
+2MiB    11M/s    10.9M/s  11M/s    11.3M/s  4.31M/s  8.07M/s  11M/s    10.8M/s  
+1MiB    11M/s    11.1M/s  10.9M/s  11.2M/s  4.29M/s  8.01M/s  11M/s    11M/s    
+512KiB  11M/s    11M/s    11M/s    11.3M/s  4.31M/s  8.05M/s  11M/s    11M/s    
+256KiB  10.6M/s  10.6M/s  10.4M/s  10.8M/s  3.72M/s  10.6M/s  10.7M/s  10.6M/s  
+128KiB  9.99M/s  9.99M/s  10M/s    10.2M/s  3.63M/s  9.97M/s  10M/s    10.1M/s  
+64KiB   9.06M/s  8.18M/s  3.52M/s  9.17M/s  3.49M/s  8.91M/s  8.98M/s  9.05M/s  
+32KiB   7.43M/s  7.38M/s  7.38M/s  7.48M/s  3.2M/s   7.34M/s  7.34M/s  7.34M/s  
+16KiB   5.4M/s   5.36M/s  5.37M/s  5.39M/s  2.77M/s  5.46M/s  5.5M/s   5.51M/s  
+8KiB    1.93M/s  1.94M/s  1.93M/s  1.93M/s  1.43M/s  1.93M/s  1.94M/s  1.95M/s  
+4KiB    844K/s   729K/s   844K/s   844K/s   734K/s   843K/s   842K/s   844K/s   
+2KiB    370K/s   397K/s   401K/s   407K/s   351K/s   399K/s   396K/s   370K/s   
+1KiB    193K/s   188K/s   193K/s   186K/s   187K/s   187K/s   194K/s   189K/s   
+======= find FAT: 2 =======
+4MiB    11.1M/s  11M/s    11.1M/s  11.3M/s  4.31M/s  8.06M/s  11.1M/s  10.9M/s  
+2MiB    11M/s    11M/s    11.1M/s  11.3M/s  4.31M/s  8.1M/s   11.1M/s  11.1M/s  
+1MiB    11M/s    11.1M/s  11M/s    11.3M/s  4.32M/s  8.11M/s  11M/s    11.1M/s  
+512KiB  11M/s    10.8M/s  11M/s    11.2M/s  4.31M/s  3.53M/s  8.93M/s  11M/s    
+256KiB  10.6M/s  10.8M/s  10.7M/s  10.8M/s  3.73M/s  10.7M/s  10.7M/s  10.6M/s  
+128KiB  9.93M/s  10M/s    10M/s    10.3M/s  3.65M/s  10.1M/s  10.1M/s  10.1M/s  
+64KiB   9M/s     9.05M/s  9.04M/s  9.17M/s  3.49M/s  9.03M/s  9.06M/s  9.08M/s  
+32KiB   7.53M/s  7.51M/s  7.41M/s  7.56M/s  3.22M/s  7.52M/s  7.49M/s  7.52M/s  
+16KiB   5.62M/s  5.6M/s   5.61M/s  5.63M/s  2.81M/s  5.6M/s   5.57M/s  5.62M/s  
+8KiB    1.98M/s  1.98M/s  1.93M/s  1.48M/s  1.47M/s  1.98M/s  1.98M/s  1.99M/s  
+4KiB    867K/s   864K/s   866K/s   867K/s   750K/s   713K/s   840K/s   866K/s   
+2KiB    407K/s   407K/s   364K/s   406K/s   379K/s   407K/s   365K/s   407K/s   
+1KiB    193K/s   190K/s   190K/s   197K/s   180K/s   196K/s   187K/s   197K/s   
+======= find FAT: 3 =======
+4MiB    11M/s    11.1M/s  11M/s    11.3M/s  4.29M/s  8.08M/s  11.1M/s  11M/s    
+2MiB    9.85M/s  2.78M/s  11M/s    11.3M/s  4.32M/s  7.99M/s  11.1M/s  10.9M/s  
+1MiB    10.9M/s  11M/s    11.1M/s  11.3M/s  4.31M/s  8.07M/s  11M/s    11.1M/s  
+512KiB  11M/s    11M/s    11.1M/s  11.3M/s  4.29M/s  7.96M/s  11.1M/s  10.8M/s  
+256KiB  10.6M/s  10.7M/s  10.6M/s  10.9M/s  3.72M/s  10.8M/s  10.7M/s  10.8M/s  
+128KiB  10M/s    10.1M/s  10.1M/s  10.2M/s  3.65M/s  9.87M/s  10.1M/s  10M/s    
+64KiB   8.95M/s  8.83M/s  8.96M/s  9.1M/s   3.47M/s  8.97M/s  8.91M/s  8.95M/s  
+32KiB   7.43M/s  7.4M/s   6.84M/s  2.48M/s  3.22M/s  7.4M/s   7.4M/s   7.39M/s  
+16KiB   5.42M/s  5.44M/s  5.46M/s  5.49M/s  2.78M/s  5.46M/s  5.46M/s  5.41M/s  
+8KiB    1.94M/s  1.94M/s  1.94M/s  1.95M/s  1.45M/s  1.94M/s  1.94M/s  1.93M/s  
+4KiB    846K/s   848K/s   686K/s   848K/s   738K/s   847K/s   848K/s   847K/s   
+2KiB    398K/s   358K/s   399K/s   399K/s   337K/s   399K/s   398K/s   398K/s   
+1KiB    184K/s   193K/s   184K/s   187K/s   184K/s   184K/s   193K/s   187K/s   
+============== Linear access ============
+======= AU=1, linear access =======
+4MiB    4.31M/s 
+2MiB    3.76M/s 
+1MiB    3.7M/s  
+512KiB  3.77M/s 
+256KiB  3.31M/s 
+128KiB  3.64M/s 
+64KiB   3.47M/s 
+32KiB   3.22M/s 
+16KiB   2.8M/s  
+8KiB    1.45M/s 
+4KiB    742K/s  
+======= AU=2, linear access =======
+4MiB    4.01M/s 
+2MiB    3.53M/s 
+1MiB    3.72M/s 
+512KiB  4.02M/s 
+256KiB  2.45M/s 
+128KiB  3.43M/s 
+64KiB   3.5M/s  
+32KiB   3.2M/s  
+16KiB   2.76M/s 
+8KiB    1.44M/s 
+4KiB    736K/s  
+======= AU=3, linear access =======
+4MiB    3.93M/s 
+2MiB    3.62M/s 
+1MiB    3.41M/s 
+512KiB  3.01M/s 
+256KiB  3.72M/s 
+128KiB  3.63M/s 
+64KiB   3.46M/s 
+32KiB   3.19M/s 
+16KiB   2.77M/s 
+8KiB    1.44M/s 
+4KiB    686K/s  
+======= AU=4, linear access =======
+4MiB    4.02M/s 
+2MiB    3.64M/s 
+1MiB    4.03M/s 
+512KiB  3.9M/s  
+256KiB  3.73M/s 
+128KiB  3.51M/s 
+64KiB   2.88M/s 
+32KiB   3.11M/s 
+16KiB   2.76M/s 
+8KiB    1.44M/s 
+4KiB    695K/s  
+======= AU=5, linear access =======
+4MiB    4.23M/s 
+2MiB    3.68M/s 
+1MiB    4.48M/s 
+512KiB  4.62M/s 
+256KiB  4.02M/s 
+128KiB  3.57M/s 
+64KiB   3.76M/s 
+32KiB   3.72M/s 
+16KiB   3.03M/s 
+8KiB    1.53M/s 
+4KiB    726K/s  
+======= AU=6, linear access =======
+4MiB    4.97M/s 
+2MiB    3.86M/s 
+1MiB    4.97M/s 
+512KiB  5.13M/s 
+256KiB  4.76M/s 
+128KiB  4.63M/s 
+64KiB   4.17M/s 
+32KiB   3.27M/s 
+16KiB   3.31M/s 
+8KiB    1.58M/s 
+4KiB    741K/s  
+======= AU=7, linear access =======
+============== Random access============
+======= AU=1, random access =======
+4MiB    1.27M/s 
+2MiB    1.71M/s 
+1MiB    2.27M/s 
+512KiB  3.77M/s 
+256KiB  3.68M/s 
+128KiB  3.59M/s 
+64KiB   3.51M/s 
+32KiB   3.24M/s 
+16KiB   2.55M/s 
+8KiB    846K/s  
+4KiB    340K/s  
+======= AU=2, random access =======
+4MiB    5.7M/s  
+2MiB    3.34M/s 
+1MiB    3.8M/s  
+512KiB  4.07M/s 
+256KiB  2.46M/s 
+128KiB  3.67M/s 
+64KiB   3.5M/s  
+32KiB   3.23M/s 
+16KiB   2.8M/s  
+8KiB    832K/s  
+4KiB    321K/s  
+======= AU=3, random access =======
+4MiB    4.89M/s 
+2MiB    3.12M/s 
+1MiB    3.97M/s 
+512KiB  4.16M/s 
+256KiB  3.76M/s 
+128KiB  3.67M/s 
+64KiB   3.62M/s 
+32KiB   3.23M/s 
+16KiB   2.21M/s 
+8KiB    827K/s  
+4KiB    327K/s  
+======= AU=4, random access =======
+4MiB    4.57M/s 
+2MiB    3.35M/s 
+1MiB    4.07M/s 
+512KiB  3.9M/s  
+256KiB  3.74M/s 
+128KiB  2.92M/s 
+64KiB   3.5M/s  
+32KiB   3.22M/s 
+16KiB   2.79M/s 
+8KiB    780K/s  
+4KiB    329K/s  
+======= AU=5, random access =======
+4MiB    4.39M/s 
+2MiB    3.44M/s 
+1MiB    4M/s    
+512KiB  3.88M/s 
+256KiB  3.1M/s  
+128KiB  3.67M/s 
+64KiB   3.5M/s  
+32KiB   3.25M/s 
+16KiB   2.81M/s 
+8KiB    792K/s  
+4KiB    333K/s  
+======= AU=6, random access =======
+4MiB    3.88M/s 
+2MiB    2.66M/s 
+1MiB    2.85M/s 
+512KiB  3.78M/s 
+256KiB  3.38M/s 
+128KiB  2.22M/s 
+64KiB   2.16M/s 
+32KiB   1.88M/s 
+16KiB   2.82M/s 
+8KiB    692K/s  
+4KiB    332K/s  
+======= AU=7, random access =======
