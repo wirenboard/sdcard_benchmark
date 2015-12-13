@@ -1,0 +1,14 @@
+root@wirenboard:~# bonnie++ -u 0 -n 5:102400:2:100 -r 64M -s 0 -d .
+Using uid:0, gid:0.
+Create files in sequential order...done.
+Stat files in sequential order...done.
+Delete files in sequential order...done.
+Create files in random order...done.
+Stat files in random order...done.
+Delete files in random order...done.
+Version  1.96       ------Sequential Create------ --------Random Create--------
+wirenboard          -Create-- --Read--- -Delete-- -Create-- --Read--- -Delete--
+files:max:min        /sec %CP  /sec %CP  /sec %CP  /sec %CP  /sec %CP  /sec %CP
+     5:102400:2/100    43  26   118  41   635  80    44  25   116  39   619  83
+Latency              3350ms     109ms     107ms    2465ms     181ms     193ms
+1.96,1.96,wirenboard,1,1418144664,,,,,,,,,,,,,,5,102400,2,,100,43,26,118,41,635,80,44,25,116,39,619,83,,,,,,,3350ms,109ms,107ms,2465ms,181ms,193ms

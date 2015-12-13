@@ -1,0 +1,208 @@
+man:0x000074 oem:0x4a45 name:USD   hwrev:0x1 fwrev:0x0 date:04/2014 cid:744a4555534420201045912f7000e408 csd:400e00325b5900003bad7f800a400008
+============== Device: /dev/mmcblk0 ===== 
+============== Partition table ===== 
+
+Disk /dev/mmcblk0: 8010 MB, 8010072064 bytes
+214 heads, 8 sectors/track, 9138 cylinders, total 15644672 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x00000000
+
+        Device Boot      Start         End      Blocks   Id  System
+/dev/mmcblk0p1            8192    15644671     7818240    b  W95 FAT32
+============== Examining first partition ===== 
+fsck.fat 3.0.26 (2014-03-07)
+fsck.fat 3.0.26 (2014-03-07)
+Checking we can access the last sector of the filesystem
+0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+ Automatically removing dirty bit.
+Boot sector contents:
+System ID "        "
+Media byte 0xf8 (hard disk)
+       512 bytes per logical sector
+     32768 bytes per cluster
+      4376 reserved sectors
+First FAT starts at byte 2240512 (sector 4376)
+         2 FATs, 32 bit entries
+    976896 bytes per FAT (= 1908 sectors)
+Root directory start at cluster 2 (arbitrary size)
+Data area starts at byte 4194304 (sector 8192)
+    244192 data clusters (8001683456 bytes)
+63 sectors/track, 255 heads
+      8192 hidden sectors
+  15636480 sectors total
+Checking for unused clusters.
+Checking free cluster summary.
+Leaving filesystem unchanged.
+/dev/mmcblk0p1: 0 files, 1/244192 clusters
+============== Linear read speed (dd, 4M block) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.0537 s, 20.4 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.03226 s, 20.6 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.04388 s, 20.5 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.02156 s, 20.7 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 2.04375 s, 20.5 MB/s
+============== Linear read speed (dd, 4M block, skip 10) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 1.95521 s, 21.5 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 1.95517 s, 21.5 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 1.94421 s, 21.6 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 1.92753 s, 21.8 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 1.94426 s, 21.6 MB/s
+============== Linear read speed (dd, 64kb block, skip 1024) ============
+==== 1 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 1.55238 s, 21.6 MB/s
+==== 2 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 1.57788 s, 21.3 MB/s
+==== 3 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 1.57878 s, 21.3 MB/s
+==== 4 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 1.56695 s, 21.4 MB/s
+==== 5 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 1.55995 s, 21.5 MB/s
+============== Linear write speed (dd, 4M block) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 4.37379 s, 9.6 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 4.14194 s, 10.1 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.91586 s, 10.7 MB/s
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.92106 s, 10.7 MB/s
+==== 5 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.92198 s, 10.7 MB/s
+============== Linear write speed (dd, 4M block, seek 10) ============
+==== 1 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.91797 s, 10.7 MB/s
+==== 2 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.91877 s, 10.7 MB/s
+==== 3 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.91964 s, 10.7 MB/s
+dd: closing input file ‘/dev/zero’: Bad file descriptor
+==== 4 ====
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 3.9157 s, 10.7 MB/s
+==== 5 ====
+dd: fdatasync failed for ‘/dev/mmcblk0’: Input/output error
+10+0 records in
+10+0 records out
+41943040 bytes (42 MB) copied, 16.4996 s, 2.5 MB/s
+dd: closing input file ‘/dev/zero’: Bad file descriptor
+============== Linear write speed (dd, 64kb block, seek 1024) ============
+==== 1 ====
+dd: fdatasync failed for ‘/dev/mmcblk0’: Input/output error
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 0.0179002 s, 1.9 GB/s
+==== 2 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 0.0096492 s, 3.5 GB/s
+==== 3 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 0.0151035 s, 2.2 GB/s
+==== 4 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 0.00946518 s, 3.5 GB/s
+==== 5 ====
+512+0 records in
+512+0 records out
+33554432 bytes (34 MB) copied, 0.00973433 s, 3.4 GB/s
+============== Linear read speed (hdparm) ============
+==== 1 ====
+
+/dev/mmcblk0:
+==== 2 ====
+
+/dev/mmcblk0:
+==== 3 ====
+
+/dev/mmcblk0:
+==== 4 ====
+
+/dev/mmcblk0:
+==== 5 ====
+
+/dev/mmcblk0:
+============== Align test ============
+======= Align test: 1 =======
+======= Align test: 2 =======
+======= Align test: 3 =======
+============== Find FAT ============
+======= find FAT: 1 =======
+======= find FAT: 2 =======
+======= find FAT: 3 =======
+============== Linear access ============
+======= AU=1, linear access =======
+======= AU=2, linear access =======
+======= AU=3, linear access =======
+======= AU=4, linear access =======
+======= AU=5, linear access =======
+======= AU=6, linear access =======
+======= AU=7, linear access =======
+============== Random access============
+======= AU=1, random access =======
+======= AU=2, random access =======
+======= AU=3, random access =======
+======= AU=4, random access =======
+======= AU=5, random access =======
+======= AU=6, random access =======
+======= AU=7, random access =======
